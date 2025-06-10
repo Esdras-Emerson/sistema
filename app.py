@@ -17,7 +17,7 @@ def inicializar_sistema():
 def main():
     st.set_page_config(page_title="Sistema de Fichas de Inspeção", layout="wide")
     
-    st.title('🔧 Sistema de Gestão de Fichas de Inspeção')
+    st.title('🔧 Sistema de Gestão')
     
     # Inicializar sistema na primeira execução
     if 'sistema_inicializado' not in st.session_state:
